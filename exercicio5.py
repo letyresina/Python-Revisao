@@ -13,7 +13,6 @@ def calcular_salario(salario):
         porcentagem = salario * 0.15
 
     aumento = salario + porcentagem
-    print(porcentagem)
     return aumento
 
 salario = float(input("Olá usuário! Por favor, informe-nos o seu salário atual: "))
